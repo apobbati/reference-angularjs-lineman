@@ -16,7 +16,7 @@ module.exports = function(lineman) {
         "vendor/bower/angular-route/angular-route.js",
         "vendor/bower/angular-ui-router/release/angular-ui-router.js",
         "vendor/bower/bootstrap/js/bootstrap.js",
-        "vendor/bower/breeze/Breeze.Client/Scripts/breeze.debug.js",
+        "vendor/bower/bower-breeze/breeze.debug.js",
         "vendor/bower/restangular/dist/restangular.js"
       ],
       app: [
