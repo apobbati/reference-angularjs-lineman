@@ -20,7 +20,7 @@ module.exports = function(lineman) {
         "vendor/bower/restangular/dist/restangular.js"
       ],
       app: [
-        "app/js/app.js",
+        "app/js/**/module.js",
         "app/js/**/*.js"
       ]
     },

@@ -24,7 +24,7 @@ module.exports = function(lineman) {
     },
 
     server: {
-      pushState: false
+      pushState: false,
       // API Proxying
       //
       // During development, you'll likely want to make XHR (AJAX) requests to an API on the same
@@ -32,11 +32,43 @@ module.exports = function(lineman) {
       // requests for paths that don't match a static asset in ./generated will be forwarded to
       // whatever service might be running on the specified port.
       //
-      // apiProxy: {
-      //   enabled: true,
-      //   host: 'localhost',
-      //   port: 3000
-      // }
+      apiProxy: {
+         enabled: true,
+         host: 'localhost',
+         port: 9000
+      }
+    },
+
+    // Configure the JavaScript Linting options
+    // to help us enforce some aspects of code quality.
+    jshint: {
+      options: {
+        undef: true,
+        unused: true,
+        curly: true,
+        eqeqeq: true,
+        eqnull: true,
+        immed: true,
+        latedef: false,
+        noarg: true,
+        nonew: true,
+        newcap: true,
+        sub: true,
+        browser: true,
+        strict: true,
+
+        /**
+         * Define globals here which are used in your application.
+         * This is ONLY for libraries that expose globals which you happen
+         * to be using in your application code.
+         *
+         * In general, do not define any global variables.
+         */
+        globals: {
+          angular: true,
+          console: true
+        }
+      }
     }
 
     // Sass
