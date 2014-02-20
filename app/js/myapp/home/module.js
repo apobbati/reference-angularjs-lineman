@@ -10,5 +10,8 @@
           templateUrl: 'home.tpl.html',
           controller: 'HomeCtrl'
         });
+    })
+    .run(function() {
+
     });
 })();
