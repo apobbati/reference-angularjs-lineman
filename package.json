@@ -1,0 +1,22 @@
+{
+  "name": "lineman-angular-template",
+  "title": "A reference implementation for large-scale AngularJS applications.",
+  "version": "0.0.1",
+  "private": true,
+  "author": {
+    "name": "Abhinav Pobbati",
+    "company": "CodeBlock, Inc."
+  },
+  "devDependencies": {
+    "protractor": ">=0.8.0",
+    "jasmine-given": "~2.1.0",
+    "lineman": ">= 0.23.0",
+    "lineman-angular": ">= 0.2.0",
+    "coffee-script": "~1.6.3",
+    "grunt-contrib-copy": "~0.5.0"
+  },
+  "scripts": {
+    "start": "lineman run",
+    "test": "lineman spec-ci"
+  }
+}

@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html data-ng-app="myapp">
+  <head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/app.css" media="all" />
+  </head>
+  <body>
+    <div data-ui-view></div>
+    <script type="text/javascript" src="js/app.js"></script>
+  </body>
+</html>
