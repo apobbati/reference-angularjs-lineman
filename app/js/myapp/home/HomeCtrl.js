@@ -3,7 +3,7 @@
 
   angular
     .module('myapp.home')
-    .controller('HomeCtrl', function($scope, $q) {
+    .controller('HomeCtrl', function() {
 
     });
 
