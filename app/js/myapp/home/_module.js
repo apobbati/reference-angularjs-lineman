@@ -7,7 +7,7 @@
       $stateProvider
         .state('home', {
           url: '',
-          templateUrl: 'home.tpl.html',
+          templateUrl: 'myapp/home/home.tpl.html',
           controller: 'HomeCtrl'
         });
     })

@@ -39,6 +39,14 @@ module.exports = function(lineman) {
       }
     },
 
+    uglify: {
+      options: {
+        compress: {
+          drop_console: true // Removes console statements
+        }
+      }
+    },
+
     // Configure the JavaScript Linting options
     // to help us enforce some aspects of code quality.
     jshint: {
